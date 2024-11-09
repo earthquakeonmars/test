@@ -5,7 +5,7 @@ class Flower:
         self._name: str = name
         Flower.flowers_total += 1
 
-flower1 = Flower('rose')
+flower1 = Flower('Ромашка')
 flower2 = Flower('tulip')
 print(Flower.flowers_total)
 flower3 = Flower('poppy')
